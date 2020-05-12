@@ -1,4 +1,5 @@
-//Array is a lection of objects
+//Array is a colection of objects
+//A collection of objects in an array is reffered to us elements
 let arr = [1, 2, true, { a: 1, b: 3 }, "string"];
 
 const loop_4 = [
