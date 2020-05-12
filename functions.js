@@ -1,16 +1,22 @@
-const my_array = [3, 7, 5];
+//Array is a lection of objects
+let arr = [1, 2, true, { a: 1, b: 3 }, "string"];
 
-function add_array_elements() {
-    let a = my_array[0];
-    let b = my_array[1];
-    let c = my_array[2];
+const loop_4 = [
+    "Joseph Otieno",
+    "Chris Otta",
+    "Mary Akinyi"
 
-    let array_sum = a + b + c;
-    return array_sum;
+];
 
+const loop_4a = [{
+    codename: "Loop 4.0",
+    intake: "April/May",
+    year: "2020",
+    student: "loop_4"
+}]
 
-}
+let l1 = arr.length; //binding length of an array to l1
+console.log(l1); //log out l1
 
-const call_to_function = add_array_elements();
-
-console.log(call_to_function);
+let element = arr[3]; // access array elements
+console.log(element);
